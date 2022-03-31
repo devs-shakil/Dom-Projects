@@ -16,10 +16,10 @@ function main(){
         output.value = bgColor;
       
    })
-
    copyBtn.addEventListener('click', function(){
-    navigator.clipboard.writeText(output.value);
-})
+        navigator.clipboard.writeText(output.value);
+   })
+   
 }
 
 
