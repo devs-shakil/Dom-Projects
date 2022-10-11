@@ -101,3 +101,13 @@ header .icons span:hover{
 .days li.active::before{
     background:#9B59B6;
 }
+
+
+.copywright{
+    color:#aaa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.copywright a{
+    text-decoration: none;
+}
