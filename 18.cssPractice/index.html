@@ -4,82 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    
     <section>
-        <div class="container-none bg-[#320073]">
-            <ul class="flex min-w-max max-w-sm mx-auto p-6 items-center">
-                <li class="px-7 mx-1 py-2 rounded-full border-pink-500 text-[#FF00A5] border-1 border-[#FF00A5]" ><a href="">Phase 1</a></li>
-                <li class="px-7 mx-1 py-2  rounded-full border-pink-500 text-[#FF00A5]" style="border:1px solid #FF00A5"><a href="">Phase 2</a></li>
-                <li class="px-7 mx-1  py-2  rounded-full border-pink-500 text-[#FF00A5]" style="border:1px solid #FF00A5"><a href="">Phase 3</a></li>
-                <li class="px-7 mx-1 py-2  rounded-full border-pink-500 text-[#FF00A5]" style="border:1px solid #FF00A5"><a href="">Phase 4</a></li>
-                <li class="px-7 mx-1 py-2  rounded-full border-pink-500 text-[#FF00A5]" style="border:1px solid #FF00A5"><a href="">Phase 5</a></li>
-            </ul>
-
-            <div id="phase-1" class="max-w-7xl mx-auto border-2 border-[#5B338F]">
-                <div class="p-1 block bg-[#FF00A5] ">
-                    <h2 class="text-center text-4xl uppercase text-white">Phase 1</h2>
-                    <p class="text-center text-sm text-white">Form Match 1 to 5</p>
+        <div class=" lg:w-[80%] lg:mx-auto  lg:flex md:flex">
+            <div class="lg:w-6/12 relative md:w-3/5">
+                <h4 class="pt-[3.25rem] text-[20px] lg:text-[30px] font-semibold text-[#320073] sm:text-2xl">LET’S GUESS <span class="text-[#FF00A5]"> AND WIN</span></h4>
+                <div class="p-2 bg-[#F7A85A] my-3 polygon-path">
+                    <h1 class="text-[28px] lg:text-[50px] font-bold ml-3 text-[#CC0000] select-none">HONDA REPSOL</h1>
                 </div>
-                <div>
-                    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </h4>
-                    <a href="">Read More</a>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                            <h4>CBR 150 <span>(2nd)</span></h4>
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                            <h3>Repsol <span>(1st)</span></h3>
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                            <h4>Cb Hornet <span>(3rd)</span></h4>
-                        </div>
-                    </div>
-                    <div>
-                        <table>
-                            <h2>Leader Board</h2>
-                            <tr>
-                                <th>SL</th>
-                                <th>Pic</th>
-                                <th>Name</th>
-                                <th>Score</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="" alt=""></td>
-                                <td>Shakib Al Hasan</td>
-                                <td>145</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="" alt=""></td>
-                                <td>Shakib Al Hasan</td>
-                                <td>145</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="" alt=""></td>
-                                <td>Shakib Al Hasan</td>
-                                <td>145</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="" alt=""></td>
-                                <td>Shakib Al Hasan</td>
-                                <td>145</td>
-                            </tr>
-                        
-                        </table>
-                    </div>
-
-                </div>
+                <li class="list-none lg:my-7 my-4">
+                    <a class="py-2 px-3 text-[18px] lg:py-3.5 lg:px-6  text-bold lg:text-[24px] bg-[#FF00A5]  text-white rounded-[30px]" href="">START PLAYING</a>
+                </li>
+                <a class="block w-max mx-1  underline text-[12px] lg:text-[20px] " href="">Click here for details</a>
+               
+                <small class="absolute lg:bottom-[20px] my-2 ">*Terms & condition applied</small>
             </div>
-
+            <div class="lg:w-6/12 md:w-2/5">
+                <img class="w-[100%]" src="./assets/img/CVR 2 1.png" alt="">
+            </div>
         </div>
     </section>
+
+    <section class="bg-[#320073]">  
+        <div class=" mx-auto lg:max-w-[80%]   ">
+            <div class="bg-[#5B338F] shadow-md  p-6">
+                <h2 class="text-2xl font-semibold mb-4 text-center text-white p-4">Rules & Regulations</h2>
+                <div class="space-y-4 lg:w-[80%] mx-auto">
+                    <div class="" id="termsContainer">
+                        <!-- Terms -->
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">01.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">02.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">03.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">04.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">05.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
+                            <span class="inline-block bg-[#320073] p-4">06.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                       
+                        <div class=" hide-condition bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center  ">
+                            <span class="inline-block bg-[#320073] p-4">07.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="hide-condition  bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center  ">
+                            <span class="inline-block bg-[#320073] p-4">08.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class=" hide-condition bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center  ">
+                            <span class="inline-block bg-[#320073] p-4">09.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class=" hide-condition  bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center  ">
+                            <span class="inline-block bg-[#320073] p-4">10.</span> 
+                            <p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                     
+                        
+                    </div>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4 flex mx-auto text-center items-center  hover:bg-blue-600" id="viewAllButton">
+                        View All
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+           
+            const viewAllButton = document.querySelector('#viewAllButton');
+            const hiddenTerms = document.querySelectorAll('.hide-condition');
+            console.log(hiddenTerms);
+    
+            viewAllButton.addEventListener('click', () => {
+                hiddenTerms.forEach(term => {
+                    term.classList.toggle('hide-condition');
+                });
+
+            viewAllButton.textContent = hiddenTerms[0].classList.contains('hide-condition') ?"View All" :"View Less" })
+        </script>
+
 </body>
 </html>
