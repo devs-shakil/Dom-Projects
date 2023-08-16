@@ -6,6 +6,7 @@
     <title>Document</title>
    <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -29,11 +30,14 @@
         </div>
     </section>
 
-    <section class="bg-[#320073]">  
-        <div class=" mx-auto lg:max-w-[80%]   ">
-            <div class="bg-[#5B338F] shadow-md  p-6">
+    <section class="bg-[#320073] relative overflow-hidden">  
+        <div class="side-layer"></div>
+        <div class=" mx-auto lg:max-w-[80%]  pb-[10%] ">
+            <div class="bg-[#5B338F]    ">
+                
                 <h2 class="text-2xl font-semibold mb-4 text-center text-white p-4">Rules & Regulations</h2>
-                <div class="space-y-4 lg:w-[80%] mx-auto">
+                <div class="space-y-4 w-[80%] mx-auto pb-[4rem] ">
+                    
                     <div class="" id="termsContainer">
                         <!-- Terms -->
                         <div class="bg-[#FF00A5]  my-3 rounded-sm text-white text-[11px]  md:text-base lg:text-base flex items-center ">
@@ -80,13 +84,37 @@
                      
                         
                     </div>
-                    <button class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4 flex mx-auto text-center items-center  hover:bg-blue-600" id="viewAllButton">
+                    <button class="border border-1  text-white px-[35px] lg:px-[40px] py-2 lg:py-3 rounded-[30px] mt-4 flex mx-auto text-center items-center  hover:bg-[#FF00A5] text-bold text-[20px] transition duration-200 ease-linear " id="viewAllButton">
                         View All
                     </button>
+                    
                 </div>
+               
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="bg-[#320073]">
+        <div class="bottom-layer h-[3rem] bg-repeat-x md:h-[5rem] lg:h-[8rem]"> </div>
+        <div class="flex flex-col  md:flex-row md:justify-between w-[80%] mx-auto items-center py-[1rem] ">
+            <div class="text-white">
+                <a href="">BTN</a>
+                <a href="">BTN</a>
+                <a href="">BTN</a>
+            </div>
+            <div>
+                <p class="text-center text-white py-[10px] text-[16px]">Copyright 2023 | All rights reserved</p>
+            </div>
+            <div class="flex justify-evenly py-[10px] text-white text-[16px]">
+                <a class="" href="">Privacy Policy</a>
+                <a href="">Terms & Condition</a>
             </div>
         </div>
-    
+    </section>
+
+
+     
         <script>
            
             const viewAllButton = document.querySelector('#viewAllButton');
