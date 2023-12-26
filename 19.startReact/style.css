@@ -1,0 +1,6 @@
+.tab li:nth-child(1)  .background { background-color: #3498db; }
+.tab li:nth-child(2)  .background { background-color: #2ecc71; }
+.tab li:nth-child(3)  .background { background-color: #e74c3c; }
+.tab li:nth-child(4)  .background { background-color: #f39c12; }
+.tab li:nth-child(5)  .background { background-color: #9b59b6; }
+.tab li:nth-child(6)  .background { background-color: #34495e; }
