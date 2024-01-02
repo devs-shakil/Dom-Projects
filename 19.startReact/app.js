@@ -60,11 +60,34 @@ const language = {
     job: "Frontend designer",
     company:"coder71"
 }
-console.log(Object.keys(language))
-console.log(Object.values(language))
-console.log(Object.entries(language))
+// console.log(Object.keys(language))
+// console.log(Object.values(language))
+// console.log(Object.entries(language))
 
-const study = "Student"
-language[study] = "I am Student";
-console.log(language)
-  
+// const study = "Student"
+// language[study] = "I am Student";
+// console.log(language)
+// const fruits = ["Banana", "Orange"];
+// const fruitsTwo = [...fruits];
+// console.log(fruitsTwo)
+
+// const person =[
+//     {
+//         name:"shakil"
+//     },
+//     {
+//         age:30
+//     },
+//     {
+//         Work:"Software Engineer"  
+//      }
+// ]
+// console.log(person)
+// const copyPerson = [
+//     ...person
+// ]
+// copyPerson.push({wife:'tanzina'})
+// console.log(person)
+ 
+// console.log(copyPerson)
+
