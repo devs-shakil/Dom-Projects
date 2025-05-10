@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Looping Example</title>
+</head>
+<body>
+    <script>
+        console.log("Hello World");
+        const obj = {
+            name: "John",
+            age: 20,
+            city: "New York"
+        }
+
+        // Method 1: Using Object.keys()
+        // Object.keys(obj).forEach((key) => {
+        //     console.log(`${key}: ${obj[key]}`);
+        // });
+
+        // // Method 2: Using Object.entries()
+        // Object.entries(obj).forEach(([key, value]) => {
+        //     console.log(`${key}: ${value}`);
+        // });
+
+        // // Method 3: Using for...in loop
+        // for (let key in obj) {
+        //     console.log(`${key}: ${obj[key]}`);
+        // }
+        
+        // Object.keys(obj).forEach((key) =>{
+        //     console.log(`${key} : ${obj[key]}`);
+        // })
+
+        const obj2 = Object.assign({},obj);
+        obj2.name = "shakil";
+        console.log(obj2);
+        console.log(obj);
+    </script>
+</body>
+</html>

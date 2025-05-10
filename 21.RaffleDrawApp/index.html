@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Draw Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+ <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>    
+</head>
+<body class="bg-[#243642]">
+    <div class="container mx-auto border my-2 rounded-md" >
+        <h2 class="text-center text-5xl text-bold uppercase py-2 text-[#E2F1E7] mb-4">Raffle Draw Application</h2>
+        <div class="flex gap-10 p-5">
+            <div class="w-full md:w-2/4">
+                <textarea class="w-full" name="" id="" cols="7" rows="8"></textarea>
+            </div>
+            <div class="w-full md:w-2/4 text-white ">
+              <h1 class="text-4xl mb-2 border-b pb-2 ">1st winner</h1>
+              <h1 class="text-3xl mb-2 border-b pb-2">2nd winner</h1>
+              <h1 class="text-2xl">3rd winner</h1>
+            </div>
+        </div>
+        <div>
+          <div class="w-full my-5 p-5 ">
+              <div class="py-4 rounded-md text-white uppercase bold h-[200px] text-4xl text-center px-2 bg-[#629584] flex items-center justify-center " >Display</div>
+          </div>
+        </div>
+    </div>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
